@@ -1,0 +1,15 @@
+section.content{
+    margin-top: 50px;
+}
+
+ul{
+    font-family: Inter;
+}
+
+li{
+    list-style: none;
+}
+
+li h2{
+    color: #3C3CFF;
+}
