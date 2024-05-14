@@ -1,0 +1,43 @@
+section.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80%;
+    padding: 10px;
+}
+
+.content img{
+    margin: 10px;
+    margin-right: 50px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.content .container-text{
+    width: 318px;
+}
+
+.group h1{
+    font-family: Inika;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41.7px;
+    color: #3C3CFF;
+    margin-bottom: 0px;
+}
+
+.group p{
+    font-family: Inter;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+
+.container-image{
+    display: flex;
+    justify-content: end;
+}
+
+
