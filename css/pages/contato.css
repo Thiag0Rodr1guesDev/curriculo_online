@@ -78,3 +78,24 @@ form button{
     background-color: #3C3CFF;
     color: white;
 }
+
+@media screen and (max-width: 508px){
+    section.content{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    form .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input, textarea{
+        width: 95%;
+        padding: 20px 10px;
+    }
+}

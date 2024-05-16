@@ -26,3 +26,14 @@ hr{
     width: 50%;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 508px){
+    section.content{
+        margin: 0px;
+    }
+
+    .content ul li{
+        margin-left: 0px;
+        width: 80%;
+    }
+}

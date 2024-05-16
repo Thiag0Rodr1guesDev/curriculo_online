@@ -42,3 +42,13 @@ hr{
     width: 50%;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 508px){
+    .grid{
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        margin-bottom: 100px;
+    }
+}
