@@ -23,6 +23,7 @@ h2{
     text-align: center;
 }
 
+/* todos os títulos menos o primeiro */
 .title:not(:first-of-type){
     margin-top: 100px;
 }

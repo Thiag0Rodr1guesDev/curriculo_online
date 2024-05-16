@@ -5,7 +5,7 @@ section.content{
     width: 80%;
     margin: auto;
 }
-/* ---------------------------------------------------- */
+/* -----------------informações de contato----------------------------------- */
 
 .container-contact{
     display: flex;
@@ -38,7 +38,7 @@ section.content{
 }
 
 
-/* --------------------------------------------------- */
+/* -------------------- formulário------------------------------- */
 textarea{
     border-radius: 4px;
     padding: 10px;

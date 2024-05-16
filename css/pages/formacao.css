@@ -2,21 +2,17 @@ section.content{
     margin: 40px;
 }
 
-ul{
-    font-family: Inter;
-}
-
-li{
-    list-style: none;
-}
-
-li h2{
+h2{
     color: #3C3CFF;
 }
 
-.first-level{
-    display: flex;
-    flex-direction: column;
+.content ul{
+    font-family: Inter;
+}
+
+.content ul li{
+    margin-left: 5%;
+    width: 80%;
 }
 
 .title{
