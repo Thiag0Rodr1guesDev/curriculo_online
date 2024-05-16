@@ -1,7 +1,7 @@
 nav{
     background-color: #DEDFFF;
     display: flex;
-    height: 100px;
+    min-height: 100px;
     align-items: end;
 }
 
@@ -50,5 +50,5 @@ nav .links{
 
 .links li:hover{
     transform: scale(1.1);
-    transition: ease-in-out;
+    transition: transform 0.2s ease;
 }

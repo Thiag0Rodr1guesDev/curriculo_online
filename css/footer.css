@@ -1,9 +1,8 @@
 footer{
     display: grid;
     grid-template-columns: 1fr;
-    bottom: 0;
     background-color: #DEDFFF;
-    height: 100px;
+    min-height: 80px;
     width: 100%;
     margin-top: auto;
 }
