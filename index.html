@@ -13,43 +13,14 @@
         <link rel="stylesheet" href="./css/navbar.css">    
         <link rel="stylesheet" href="./css/footer.css">
         <link rel="stylesheet" href="./css/pages/index.css">
-        <script src="/js/navbar.js"></script>
-        <base href="/curriculo_online/">
+        <script src="/js/navbar.js" type="module" defer></script>
     </head>
     <body>
-        <nav>
-            <div class="info">
-                <span class="name">Thiago Vinícius Oliveira de Matos Rodrigues</span>
-                <span class="role">Programador, Igarassu - PE</span>
-            </div>
-            <div class="container-mobile">
-                <button class="btn-mobile">
-                    <img src="./img/bars-solid.svg" alt="">
-                </button>
-            </div>
-            <ul class="links">
-                <li>
-                    <a href=".">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="pages/formacao.html">Formação</a>
-                </li>
-                <li>
-                    <a href="pages/experiencia.html">Experiência</a>
-                </li>
-                <li>
-                    <a href="pages/portfolio.html">Portfólio</a>
-                </li>
-                <li>
-                    <a href="pages/contato.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
-
+        <nav-component></nav-component>
         <section class="content">
             <div class="row column-grid">
                 <div class="container-image">
-                    <img src="./img/minha_foto.png" alt="">
+                    <img src="../img/minha_foto.png" alt="">
                 </div>
                 <div class="container-text">
                     <div class="group">
@@ -112,4 +83,5 @@
             </div>  
         </footer>
     </body>
+      <script src="js/nav-component.js" type="module"></script>
 </html>
