@@ -8,15 +8,15 @@ class NavComponent extends HTMLElement {
         </div>
         <div class="container-mobile">
           <button class="btn-mobile" aria-label="Abrir menu">
-            <img src="../img/bars-solid.svg" alt="Menu" />
+            <img src="img/bars-solid.svg" alt="Menu" />
           </button>
         </div>
         <ul class="links">
-          <li><a href="../">Sobre mim</a></li>
-          <li><a href="../pages/formacao.html">Formação</a></li>
-          <li><a href="../pages/experiencia.html">Experiência</a></li>
-          <li><a href="../pages/portfolio.html">Portfólio</a></li>
-          <li><a href="../pages/contato.html">Contato</a></li>
+          <li><a href=".">Sobre mim</a></li>
+          <li><a href="pages/formacao.html">Formação</a></li>
+          <li><a href="pages/experiencia.html">Experiência</a></li>
+          <li><a href="pages/portfolio.html">Portfólio</a></li>
+          <li><a href="pages/contato.html">Contato</a></li>
         </ul>
       </nav>
     `;
