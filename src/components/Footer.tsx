@@ -1,33 +1,7 @@
-import { Github, Linkedin, Mail, Heart, Coffee } from "lucide-react"
+import { Coffee } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
-
-  const socialLinks = [
-    {
-      name: "GitHub",
-      href: "https://github.com",
-      icon: Github,
-    },
-    {
-      name: "LinkedIn",
-      href: "https://linkedin.com",
-      icon: Linkedin,
-    },
-    {
-      name: "Email",
-      href: "mailto:contact@example.com",
-      icon: Mail,
-    },
-  ]
-
-  const quickLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Projects", href: "#projects" },
-    { name: "Resume", href: "#resume" },
-    { name: "Contact", href: "#contact" },
-  ]
 
   return (
     <footer className="bg-card border-t border-border">

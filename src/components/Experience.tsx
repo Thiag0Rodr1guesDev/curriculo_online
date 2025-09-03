@@ -29,8 +29,7 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className="py-20 bg-card">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
-
+        <div className="max-w-5xl mx-auto">
             {/* Experience Timeline */}
             <div>
               <h3 className="text-2xl font-serif font-semibold text-card-foreground mb-8">Minha trajetória profissional</h3>

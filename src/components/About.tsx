@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/Card";
 function About() {
     return (
       <section id="about" className="py-20 bg-muted/30">
-        <div className="max-w-4xl mx-auto px-10 sm:px-4 md:px-0">
+        <div className="max-w-5xl mx-auto px-10 sm:px-4 md:px-0">
           <div className="flex flex-col gap-10">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Sobre Mim</h2>

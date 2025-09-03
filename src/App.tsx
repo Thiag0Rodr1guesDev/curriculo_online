@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About'
 import CodeBlock from './components/CodeBlock'
 import Contact from './components/Contact'
+import Education from './components/Education'
 import ExperienceSection from './components/Experience'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -16,6 +17,7 @@ function App() {
       <Intro />
       <CodeBlock />
       <ExperienceSection />
+      <Education />
       <Skills />
       <About/>
       <Contact />
