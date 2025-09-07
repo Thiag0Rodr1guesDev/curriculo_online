@@ -11,6 +11,7 @@ export default function Header() {
     { name: "ìnicio", href: "#home" },
     { name: "Sobre", href: "#about" },
     { name: "Experiência", href: "#experience" },
+    { name: "Formação", href: "#education" },
     { name: "Skills", href: "#skills" },
     { name: "Contato", href: "#contact" },
   ]

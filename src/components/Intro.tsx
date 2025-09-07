@@ -3,7 +3,7 @@ function Intro() {
     <section id="home" className="relative overflow-hidden pt-40 px-4">
         <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
-                <div className="border-2 border-primary w-32 h-32 mx-auto rounded-full bg-muted overflow-hidden">
+                <div className="border-2 border-primary w-36 h-36 mx-auto rounded-full bg-muted overflow-hidden">
                     <img src="perfil.jpg" alt="Profile" className="w-full h-full object-cover" />
                 </div>
             </div>
