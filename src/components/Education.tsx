@@ -7,23 +7,18 @@ export default function Education() {
       degree: "Técnologo em Análise e Desenvolvimento de Sistemas",
       school: "Uninter",
       year: "10/2022 - 04/2025",
-      description:
-        "Curso superior focado em analise, desenvolvimento e manutenção de sistemas de software. Inclui programação, banco de dados, redes e gestão de projetos.",
+       description: "Curso superior focado em análise, desenvolvimento e manutenção de sistemas de software, com ênfase em gestão, análise de requisitos e arquitetura de software. Abrangeu disciplinas como programação, banco de dados, redes e gestão de projetos.",
     },
      {
-      degree: "Técnico em informática para internet",
+      degree: "Técnico em Informática para Internet",
       school: "Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco (IFPE)",
       year: "02/2017 - 08/2018",
-      description:
-        "Curso técnico com ênfase em desenvolvimento web, programação e manutenção de sistemas, além de redes e bancos de dados. Projetos práticos.",
+      description: "Curso técnico com ênfase em desenvolvimento web. Atuei como monitor de Lógica de Programação e Programação Orientada a Objetos, participando de projetos práticos que me introduziram à aplicação do conhecimento fora do ambiente acadêmico, além de me aprofundar em bancos de dados e boas práticas de desenvolvimento.",
     },
   ];
 
   const certifications : string[] = [
-    // "AWS Certified Developer Associate",
-    // "Google Cloud Professional Developer",
-    // "MongoDB Certified Developer",
-    // "Certified Kubernetes Administrator",
+    "Treinamento presencial em Angular e JavaScript - Caelum e Alura, com o instrutor Dev Soutinho (Mario Souto), realizado na Avanade.",
   ];
 
   return (
@@ -34,7 +29,7 @@ export default function Education() {
         <div>
           <h3 className="text-2xl font-serif font-semibold text-card-foreground mb-8 flex items-center gap-3">
             <GraduationCap className="h-6 w-6 text-accent" />
-            Education
+            Educação
           </h3>
           <div className="space-y-6">
             {education.map((edu, index) => (
@@ -60,7 +55,7 @@ export default function Education() {
         {certifications.length > 0 && (
           <div>
           <h3 className="text-xl font-serif font-semibold text-card-foreground mb-6">
-            Certifications
+            Certificaçṍes
           </h3>
           <div className="grid gap-3">
             {certifications.map((cert, index) => (

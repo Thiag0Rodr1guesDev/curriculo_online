@@ -11,7 +11,7 @@ function CodeBlock() {
           </div>
           <div className="space-y-2">
             <div className="text-muted-foreground">
-              {"// Sempre aprendendo"}
+              {"// Aprendizado contínuo e criatividade"}
             </div>
             <div>
               <span className="text-primary">const</span> developer = {"{"}
