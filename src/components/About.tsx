@@ -25,7 +25,7 @@ function About() {
                 performance e código limpo.
               </p>
               <p>
-                Além da minha expertise técnica, sou um profissional responsavél, analítico,
+                Além da minha expertise técnica, sou um profissional responsável, analítico,
                 focado e dedicado com uma paixão pelo aprendizado contínuo. Busco
                 constantemente aprimorar minhas habilidades, capacidades e aplicar meu
                 conhecimento para construir soluções inovadoras e crescer junto com a empresa.
