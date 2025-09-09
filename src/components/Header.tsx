@@ -8,11 +8,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [
-    { name: "ìnicio", href: "#home" },
+    { name: "Início", href: "#home" },
     { name: "Sobre", href: "#about" },
     { name: "Experiência", href: "#experience" },
     { name: "Formação", href: "#education" },
-    { name: "Skills", href: "#skills" },
+    { name: "Habilidades", href: "#skills" },
     { name: "Contato", href: "#contact" },
   ]
 
@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-serif font-bold text-foreground">Portfolio</h1>
+            <h1 className="text-xl font-serif font-bold text-foreground">Portfólio</h1>
           </div>
 
           {/* Desktop Navigation */}

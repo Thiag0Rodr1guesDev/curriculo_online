@@ -55,7 +55,7 @@ export default function Education() {
         {certifications.length > 0 && (
           <div>
           <h3 className="text-xl font-serif font-semibold text-card-foreground mb-6">
-            Certificaçṍes
+            Certificações
           </h3>
           <div className="grid gap-3">
             {certifications.map((cert, index) => (
